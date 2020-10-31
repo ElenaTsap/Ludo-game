@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleni's Ludo2</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <script src="https://kit.fontawesome.com/dc3beb17c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>I don't know how to play Ludo <br> but I can code it</h1>
+    <main>
+        <div id="main-board">
+
+            <!-- connecting lines -->
+            <div id="lines-container">
+                <div id="top-lines" class="lines"></div>
+                <div id="right-lines" class="lines"></div>
+                <div id="bottom-lines" class="lines"></div>
+                <div id="left-lines" class="lines"></div>
+            </div>
+            
+            <div id="main-container">
+
+                <!-- first row -->
+                <div class="red big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="red big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="green medium"><i class="fas fa-arrow-down"></i></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="green big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="green big"><img src="./icons/circle-pawn.png" alt=""></div>
+
+                <!-- second row -->
+                <div class="red big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="red big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="white medium"></div>
+                <div class="green small"></div>
+                <div class="white medium"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="green big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="green big"><img src="./icons/circle-pawn.png" alt=""></div>
+                
+                <!-- third row -->
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="white medium"></div>
+                <div class="green small"></div>
+                <div class="white medium"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+
+                <!-- fourth row -->
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="white medium"></div>
+                <div class="green small"></div>
+                <div class="white medium"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+
+                <!-- fifth row -->
+                <div class="red medium"><i class="fas fa-arrow-right"></i></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="white medium"><i class="fas fa-star"></i></div>
+                <div class="green small"></div>
+                <div class="white medium"><i class="fas fa-star"></i></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+
+                <!-- sixth row -->
+                <div class="white medium"></div>
+                <div class="red small"></div>
+                <div class="red small"></div>
+                <div class="red small"></div>
+                <div class="red small"></div>
+                <div class="empty"></div>
+                <div class="yellow small"></div>
+                <div class="yellow small"></div>
+                <div class="yellow small"></div>
+                <div class="yellow small"></div>
+                <div class="white medium"></div>
+
+                <!-- seventh row -->
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="white medium"><i class="fas fa-star"></i></div>
+                <div class="blue small"></div>
+                <div class="white medium"><i class="fas fa-star"></i></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="yellow medium"><i class="fas fa-arrow-left"></i></div>
+
+                <!-- eighth row -->
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="white medium"></div>
+                <div class="blue small"></div>
+                <div class="white medium"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+
+                <!-- ninth row -->
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="white medium"></div>
+                <div class="blue small"></div>
+                <div class="white medium"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                
+                <!-- tenth row -->
+                <div class="blue big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="blue big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="white medium"></div>
+                <div class="blue small"></div>
+                <div class="white medium"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="yellow big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="yellow big"><img src="./icons/circle-pawn.png" alt=""></div>
+
+                <!-- eleventh row -->
+                <div class="blue big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="blue big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="blue medium"><i class="fas fa-arrow-up"></i></div>
+                <div class="white medium"></div>
+                <div class="white medium"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="yellow big"><img src="./icons/circle-pawn.png" alt=""></div>
+                <div class="yellow big"><img src="./icons/circle-pawn.png" alt=""></div>
+            </div>
+            
+
+
+        </div>
+    </main>
+</body>
+</html>
